@@ -9,7 +9,8 @@ var Spotify = require('node-spotify-api');
 function spotThisSong(value) {
     var spotify = new Spotify(keys.spotify);
     if (!value) {
-        value = 'The Sign';
+        value = 'Ace of Base';
+        
     }
 
 
