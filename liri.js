@@ -1,6 +1,6 @@
 var keys = require("./keys.js");
 var fs = require("fs");
-console.log(keys);
+
 
 var action = process.argv[2];
 var value = process.argv[3];
@@ -8,6 +8,9 @@ var Spotify = require('node-spotify-api');
 
 function spotThisSong(value) {
     var spotify = new Spotify(keys.spotify);
+    if (!value) {
+        value = 'The Sign';
+    }
 
 
     spotify.search({

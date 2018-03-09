@@ -1,7 +1,5 @@
-console.log('this is loaded');
-
 require("dotenv").config();
-console.log(process.env.TWITTER_CONSUMER_KEY);
+
 
 exports.twitter = {
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
