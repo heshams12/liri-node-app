@@ -102,11 +102,11 @@ function movieThis(value) {
 
 function justDoIt(value) {
     fs.readFile("random.txt", "utf8", function (error, data) {
-        var input = (data.split(',')); //returns an array
+        var input = (data.split(',')); 
         var command = input[0]
         var result = input[1]
 
-        // If the code experiences any errors it will log the error to the console.
+        
         if (error) {
             return console.log(error);
         }
