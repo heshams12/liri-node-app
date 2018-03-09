@@ -9,7 +9,7 @@ USING NODE.JS EACH WILL DO THE FOLLOWING:
 
 This will show my last 20 tweets and when they were created at in my terminal/bash window.
 
-//// node liri.js spotify-this-song '<song name here>' //////
+//// node liri.js spotify-this-song 'song name here' //////
 
 This will show the following information about the song in your terminal/bash window:
 
@@ -23,7 +23,7 @@ The album that the song is from
 
 If no song is provided then the program will default to "The Sign" by Ace of Base.
 
-///// node liri.js movie-this '<movie name here>' ////
+///// node liri.js movie-this 'movie name here' ////
 
 This will output the following information to the terminal/bash window:
 
